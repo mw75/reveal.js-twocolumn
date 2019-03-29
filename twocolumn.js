@@ -23,6 +23,6 @@ marked.Renderer.prototype.blockquote = (quote) => {
 		quote=parts.shift();
 		append=blockquote[0]+parts.join(blockquote[0]);
 	}
-	console.log(wrap[0]+blockquote[0]+quote+blockquote[1]+append+wrap[1]);
+	// console.log(wrap[0]+blockquote[0]+quote+blockquote[1]+append+wrap[1]);
 	return wrap[0]+blockquote[0]+quote+blockquote[1]+append+wrap[1];
 }
